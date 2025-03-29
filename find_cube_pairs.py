@@ -1,4 +1,4 @@
-def find_cube_pairs(target):
+def find_cube_pairs(target): #added colon to make function work
     solutions = []  # removed the ; at the end
     max_num = round(target ** (1/3))  # fixed 'targ' to 'target' and replaced '***' with '**'
 
